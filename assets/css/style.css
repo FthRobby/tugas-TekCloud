@@ -1,0 +1,87 @@
+body,
+html {
+    background-color: #f9f9f9;
+    color: #161a1c;
+    font-family: 'Chilanka', cursive;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    }
+
+
+a.nav-link {
+    color: #161a1c !important;
+    transition: 0.3s;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#bg-img {
+  margin-top: 70px;
+  background: url('../img/banner.jpg');
+  background-size: 100%;
+  position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 650px;
+ margin-right: 70px;
+}
+
+#text1 h1 {
+  position: absolute;
+  top: 40px;
+  
+}
+
+#about {
+  margin-top: 50px;
+}
+
+
+#about span {
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+ align-items: center;
+}
+
+#about hr {
+  border-width: 3px;
+  margin-top: 06px;
+}
+
+#skills span {
+   padding: 10px 20px 10px 20px;
+}
+
+#skills hr {
+  border-width: 3px;
+  margin-top: 06px;
+}
+
+#interest span {
+  padding: 10px 20px 10px 20px;
+}
+
+#interest hr {
+  border-width: 3px;
+  margin-top: 06px;
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
